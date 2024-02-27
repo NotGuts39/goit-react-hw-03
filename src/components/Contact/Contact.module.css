@@ -1,0 +1,38 @@
+.contactContainer {
+  border: 2px solid black;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.deleteButton {
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+.iconContainer {
+  margin-right: 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+
+  margin-right: 5px;
+  fill: black;
+}
